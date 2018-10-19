@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">最新消息 <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#news">最新消息 <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#authorstory">故事起源</a>
@@ -89,7 +89,7 @@
     </header>
 
     <section>
-        <div class="container py-5">
+        <div id="news" class="container py-5">
             <div class="titleExterior">
                 <h1>最新消息</h1>
             </div>
@@ -234,7 +234,7 @@
     </section>
 
     <section>
-        <div id="paintingAppreciation" class="container py-2">
+        <div id="paintingAppreciation" class="container py-5">
             <div class="titleExterior">
                 <h1>繪畫賞析</h1>
             </div>
@@ -270,8 +270,8 @@
                 <h1>改編作品</h1>
             </div>
             <div class="flex">
-                <div class="m-auto">
-                    <div class="card-body m-auto">
+                <div>
+                    <div class="card-body flex-2 works">
                         <img class="card-img-top" style="width: 150px;" src="/image/惡女馬克白.jpg" alt="Card image cap">
                         <div class="card-body">
                             <a href="#" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#exampleModalCenter1">惡女馬克白</a>
@@ -294,20 +294,20 @@
                                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                                 <div class="modal-footer">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
+                                    <p class="card-text">
+                                        俄國作家列斯科夫短篇小說《莫桑斯克的馬克白夫人》改編，此馬克白夫人與莎翁的故事無關。年輕的凱瑟琳被賣給比她年老又醜的男人作新娘，她在新居生活卻與馬伕有了欲望，決定剷除她幸福道路上層層阻礙...
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="my-auto">
-                    <div class="card-body">
+                <div>
+                    <div class="card-body flex-2 works">
                         <img class="card-img-top" style="width: 150px;" src="/image/莎士比亞不插電3─馬克白.jpg" alt="Card image cap">
-                        <div class="card-body p-0">
-                            <a href="#" class="btn btn-primary bg-dark text-" data-toggle="modal" data-target="#exampleModalCenter2">莎士比亞不插電3─馬克白</a>
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#exampleModalCenter2">莎士比亞不插電3─馬克白</a>
                         </div>
                     </div>
                     <!-- Modal -->
@@ -325,17 +325,23 @@
                                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/JRcpqVric2o"
                                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
+                                <div class="modal-footer">
+                                    <p class="card-text">
+                                        透過三女巫的觀點，呈現權謀者生命的興衰歷程。舞台以一道和式拉門為主要場景，藉由門前、門後燈光與影戲的表演，呈現馬克白與夫人兩人在面對外在處境與內心情境時的落差。除了使用面具和色彩強烈的燈光效果，以營造原著中探討命運、貪婪、謀殺、罪惡感、癲狂等主題的悲劇氛圍，也在一些段落裡，著力於幽默感及喜劇效果的刻畫。
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#exampleModalCenter3">
-                        蜷川馬克白
-                    </button>
-
+                    <div class="card-body flex-2 works">
+                        <img class="card-img-top" style="width: 150px;" src="/image/蜷川馬克白.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#exampleModalCenter3">蜷川馬克白</a>
+                        </div>
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
                         aria-hidden="true">
@@ -351,16 +357,29 @@
                                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/E_3snCnZNPI"
                                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
+                                <div class="modal-footer">
+                                    <p class="card-text">
+                                        16世紀末的日本安土桃山時期，原著的蘇格蘭戰士搖身一變成為日本武士，勃南樹林轉化為櫻花樹林。劇中仿照日本佛壇的巨大佈景、漫天櫻花的淒美場景等日式風格，將蜷川幸雄完美地融合東西方戲劇傳統的駕馭能力表露無遺。
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#exampleModalCenter4">
-                        馬克白夫人的誘惑
-                    </button>
+                    <div class="card-body flex-2 works" data-toggle="modal" data-target="#exampleModalCenter4">
+                        <img class="card-img-top" style="width: 150px;" src="/image/馬伯司氏.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary bg-dark">馬伯司氏</a>
+                        </div>
+                    </div>
+                    <!-- <div class="card-body flex-2">
+                        <img class="card-img-top" style="width: 150px;" src="/image/馬伯司氏.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#exampleModalCenter3">馬伯司氏</a>
+                        </div>
+                    </div> -->
 
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -368,14 +387,19 @@
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalCenterTitle">馬克白夫人的誘惑</h5>
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">馬伯司氏</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/0s3lkACRjjs"
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/T_ny1B2X4fM"
                                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <p class="card-text">
+                                        時空定格在清末民初之交，一改馬克白夫人心狠手辣的形象，細膩詮釋一名女性的內心轉折，比起將軍夫人，她更是一個希望把馬克白將軍留在身邊的情人。導演劉亮延特別選用清朝文人李琴南所翻譯的莎士比亞劇本，不僅文字優美，導演更把翻譯家的角色加進劇中，以第三人稱的角度剖析人物，橫跨時間與空間，創造多元混搭的世界。
+                                    </p>
                                 </div>
                             </div>
                         </div>
